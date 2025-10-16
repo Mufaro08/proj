@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/projects.js" defer></script>
+</head>
+<body>
+    <!--header bo-->
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">My Dev Journey</a></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="tips.html">Tips & Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="weather-sidebar">
+            <h2>Weather</h2>
+            <div id="weather-today">
+                <h3>Today</h3>
+                <p id="today-temperature">Loading...</p>
+                <p id="today-description">Loading...</p>
+            </div>
+            <div id="weather-tomorrow">
+                <h3>Tomorrow</h3>
+                <p id="tomorrow-temperature">Loading...</p>
+                 <p id="tomorrow-description">Loading...</p>
+            </div>
+            <div id="weather-day-after">
+                <h3>Day After Tomorrow</h3>
+                <p id="day-after-temperature">Loading...</p>
+                 <p id="day-after-description">Loading...</p>
+            </div>
+        </aside>
+
+        <main id="projects-container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+               <!-- Projects will be dynamically added here -->
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>3782 Rockview Park</p>
+                <p>Zimbabwe</p>
+                <p>Cell: +263-778-684-558</p>
+            </div>
+            <div class="footer-center">
+                <a href="https://facebook.com/Mufaromaz" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/mufaro08" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="www.linkedin.com/in/mufaro-maz-3890807a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mufaro08" target="_blank"><i class="fab fa-github"></i></a>
+            
+            </div>
+            <div class="footer-right">
+                <p id="myName"></p>
+                <p id="copyright"></p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

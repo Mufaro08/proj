@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips & Resources</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./scripts/tips.js" defer></script>
+    <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="index.html">My Dev Journey</a></div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="tips.html">Tips & Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <section id="my-tips">
+                <h2>My Tips for Learners</h2>
+                <ul>
+                    <li>Start with the basics and build a strong foundation.</li>
+                    <li>Practice consistently, even if it's just for a few minutes each day.</li>
+                    <li>Don't be afraid to ask for help or seek out mentors.</li>
+                </ul>
+            </section>
+
+            <section id="resources">
+                <h2>Resources I Found Helpful</h2>
+                <ul id="resources-list">
+                    <!-- Resources will be dynamically added here -->
+                </ul>
+            </section>
+
+            <section id="share-tip">
+                <h2>Share Your Tip</h2>
+                <form id="tip-form">
+                    <label for="tip-name">Your Name:</label>
+                    <input type="text" id="tip-name" name="tip-name" required>
+
+                    <label for="tip-text">Your Tip:</label>
+                    <textarea id="tip-text" name="tip-text" rows="4" required></textarea>
+
+                    <button type="submit">Submit Tip</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>3782 Rockview Park</p>
+                <p>Zimbabwe</p>
+                <p>Cell: +263-778-684-558</p>
+            </div>
+            <div class="footer-center">
+                <a href="https://facebook.com/Mufaromaz" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/mufaro08" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="www.linkedin.com/in/mufaro-maz-3890807a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mufaro08" target="_blank"><i class="fab fa-github"></i></a>
+            
+            </div>
+            <div class="footer-right">
+                <p id="myName"></p>
+                <p id="copyright"></p>
+                <p id="lastModified"></p>
+            </div>
+        </div>
+    </footer>
+
+</html>
